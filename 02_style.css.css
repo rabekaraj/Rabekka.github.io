@@ -1,0 +1,93 @@
+/* Modern Global Style */
+body {
+    margin: 0;
+    padding: 0;
+    background: #eef1f5;
+    font-family: "Poppins", sans-serif;
+    color: #2d3436;
+}
+
+/* Smooth fade animation */
+* {
+    transition: 0.3s;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+
+/* Main Cards */
+section {
+    background: white;
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* Section Title */
+h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+/* Paragraph */
+p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555;
+}
+
+/* Certificate Image Grid */
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.cert-grid img {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.22);
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Animation */
+.cert-grid img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+/* Email Link */
+.email a {
+    color: #2575fc;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #444;
+    font-size: 16px;
+}
